@@ -10,3 +10,5 @@ This repository includes all files relating to the UWA Full Stack Web Developmen
 [Screenshot 2](link.here)
 
 URL for completed product: [enter URL here]
+
+Feedback from last assignment: CSS consolidation and better description in README.md file. Answer question: what does this code do?
