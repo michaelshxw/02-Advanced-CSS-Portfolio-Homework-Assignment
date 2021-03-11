@@ -1,0 +1,151 @@
+
+:root{
+  --darkgrey: #a2aaac;
+  --red: #cfd4da;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #cfd4da;
+}
+
+@font-face {
+  font-family: freshLychee;
+  src: url("./Assets/Fonts/Fresh\ Lychee.otf");
+}
+
+@font-face {
+  font-family: goodPeople;
+  src: url("./Assets/Fonts/Good\ People.otf");
+}
+
+@font-face {
+  font-family: snufkin;
+  src: url("./Assets/Fonts/Snufkin.otf");
+}
+
+
+/* Header */
+
+header {
+  padding: 10px 0px 10px 0px;
+  color: var(--red);  
+}
+
+h1 {
+  display: inline-block;
+  font-family: goodPeople;
+  font-size: 50px;
+  color:  var(--red);  
+  padding: 10px 5px 5px 50px;
+}
+
+/* Navigation */
+
+nav {
+  padding-top: 25px;
+  margin-right: 40px;
+  float: right;
+  font-family: snufkin;
+  font-size: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 25px; 
+}
+
+a {
+  color: var(--red);
+  text-decoration: none;
+  padding: 0px 10px;
+}
+
+/* Hero */
+
+.hero {
+  height: 500px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("https://source.unsplash.com/random/2500x200");
+  background-size: cover;
+  background-position: center;
+}
+
+h2{
+  background-color: var(--red);
+  color:  var(--darkgrey);  
+  display: inline-block;
+  padding: 10px;
+  margin-right: 20px;
+  position: relative;
+  top: 80%;
+  left: 80%;
+  
+}
+
+section {
+  padding-left: 80px;
+  padding-right: 180px;
+  padding-bottom: 50px;
+}
+
+/* About */
+
+#about h3 {
+  color: #E3963E;
+  text-align: center;
+  padding: 40px 0px;
+  font-family: freshlychee;
+  font-size: 60px;
+}
+
+
+#about img {
+}
+
+#about p {
+  padding: 30px;
+  font-family: snufkin;
+}
+
+
+/* Work */
+
+
+
+.work-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 100px;
+}
+
+.work-container > h4 {
+  background-color: #f1f1f1;
+  width: 25vw;
+  height: 25vh;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+
+.work-container > h4:first-of-type {
+  width: 50vw;
+  height: 50vh;
+}
+
+div { width: 25vw; height: 25vw; }
+div:first-of-type { width: 50vw; height: 50vw; }
+
+
