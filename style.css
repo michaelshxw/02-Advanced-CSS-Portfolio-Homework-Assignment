@@ -1,7 +1,7 @@
 
 :root{
-  --darkgrey: #a2aaac;
-  --red: #cfd4da;
+  --darkgrey: #ff3b00;
+  --red: #ff3b00;
 }
 
 * {
@@ -10,7 +10,7 @@
 }
 
 body {
-  background-color: #cfd4da;
+  background-color: #f4d8cc;
 }
 
 @font-face {
@@ -20,7 +20,7 @@ body {
 
 @font-face {
   font-family: goodPeople;
-  src: url("./Assets/Fonts/Good\ People.otf");
+  src: url("./Assets/Fonts/neoneon-font/Neoneon-3zaD6.otf");
 }
 
 @font-face {
@@ -34,14 +34,16 @@ body {
 header {
   padding: 10px 0px 10px 0px;
   color: var(--red);  
+  height: 100vh;
 }
 
 h1 {
-  display: inline-block;
+  margin-top: 35vh;
+  text-align: center;
   font-family: goodPeople;
-  font-size: 50px;
+  font-size: 100px;
   color:  var(--red);  
-  padding: 10px 5px 5px 50px;
+  padding: 30px 50px
 }
 
 /* Navigation */
