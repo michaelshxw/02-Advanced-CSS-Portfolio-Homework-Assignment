@@ -1,6 +1,4 @@
-
 :root{
-  --darkgrey: #ff3b00;
   --red: #ff3b00;
 }
 
@@ -14,45 +12,40 @@ body {
 }
 
 @font-face {
-  font-family: freshLychee;
-  src: url("./Assets/Fonts/Fresh\ Lychee.otf");
+  font-family: blackout;
+  src: url("./Assets/Fonts/Roboto/Roboto-Light.ttf");
 }
 
 @font-face {
-  font-family: goodPeople;
+  font-family: Neoneon;
   src: url("./Assets/Fonts/neoneon-font/Neoneon-3zaD6.otf");
 }
 
-@font-face {
-  font-family: snufkin;
-  src: url("./Assets/Fonts/Snufkin.otf");
-}
 
-
-/* Header */
+/* HEADER */
 
 header {
-  padding: 10px 0px 10px 0px;
   color: var(--red);  
   height: 100vh;
 }
 
 h1 {
-  margin-top: 35vh;
+  margin-top: 40vh;
   text-align: center;
-  font-family: goodPeople;
+  font-family: neoneon;
   font-size: 100px;
   color:  var(--red);  
-  padding: 30px 50px
+  padding: 30px 50px;
 }
 
-/* Navigation */
+/* navigation  */
 
 nav {
+  position: absolute;
+  right: 50px;
+  top: 20px;
   padding-top: 25px;
-  margin-right: 40px;
-  float: right;
-  font-family: snufkin;
+  font-family: blackout;
   font-size: 20px;
 }
 
@@ -62,7 +55,6 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  margin-left: 25px; 
 }
 
 a {
@@ -71,16 +63,6 @@ a {
   padding: 0px 10px;
 }
 
-/* Hero */
-
-.hero {
-  height: 500px;
-  width: 100%;
-  margin-bottom: 25px;
-  background-image: url("https://source.unsplash.com/random/2500x200");
-  background-size: cover;
-  background-position: center;
-}
 
 h2{
   background-color: var(--red);
