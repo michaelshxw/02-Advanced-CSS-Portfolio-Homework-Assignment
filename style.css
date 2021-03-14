@@ -207,10 +207,6 @@ footer {
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 1024px) {
-  body {
-    background-color: lightblue;
-  }
-
   nav li {
     float: none;
   }
@@ -234,10 +230,6 @@ footer {
     width: 60vw;
   }
 
-  .contact-list ul {
-    display: block;
-  }
-
   section {
     padding-top: 30px;
   }
@@ -247,9 +239,31 @@ footer {
   }
 
   .work-container {
-    display: block;
-    width: 80%;
-    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 80vw;
+    padding-right: 0px;
+    padding-top: 250px;
   }
 
+  .hero-image h1 {
+    font-size: 17vw;
+  }
+
+  #contact h3 {
+    margin-top: -750px;
+  }
+
+  .contact-list ul {
+
+  }
+
+  .contact-list a {
+    padding: 5px;
+  }
+
+  nav a {
+    font-size: 8vw;  
+  }
 }
