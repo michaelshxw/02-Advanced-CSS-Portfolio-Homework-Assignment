@@ -19,8 +19,18 @@ body {
 }
 
 @font-face {
-  font-family: Neoneon;
+  font-family: neoneon;
   src: url("./Assets/Fonts/neoneon-font/Neoneon-3zaD6.otf");
+}
+
+@font-face {
+  font-family: bastian;
+  src: url("./Assets/Fonts/Bastian.ttf");
+}
+
+@font-face {
+  font-family: acetone;
+  src: url("./Assets/Fonts/acetone/ACETONE.otf");
 }
 
 /* HEADER */
@@ -105,11 +115,11 @@ nav a {
 
 /* update page header styling for all sections  */
 h3 {
-  color: var(--red);
+  color: black;
   text-align: center;
-  padding: 80px 0px 40px 0px;
-  font-family: neoneon;
-  font-size: 80px;
+  padding: 60px 0px 40px 0px;
+  font-family: bastian;
+  font-size: 100px;
   font-weight: lighter;
 }
 
@@ -130,6 +140,8 @@ h3 {
 }
 
 .about-content p {
+  text-align: center;
+  padding-top: 10px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -151,7 +163,7 @@ h3 {
 }
 
 .work-text h4 {
-  font-family: blackout;
+  font-family: bastian;
   font-size: 5vw;
   color: white;
   text-align: center;
@@ -186,7 +198,7 @@ h3 {
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
-  font-family: blackout;
+  font-family: acetone;
   font-size: 35px;
 }
 
