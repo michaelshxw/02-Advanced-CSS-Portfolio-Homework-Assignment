@@ -137,7 +137,7 @@ section {
 }
 
 .work-container > div {
-  background-image: url("./Assets/Images/hero-image1.jpg");
+  background-image: url("https://source.unsplash.com/random/800x800");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
