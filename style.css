@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: #fae6e7;
+  /* background-color: #fae6e7; */
   /* background-color: #f4d8cc; */
 }
 
@@ -106,10 +106,8 @@ h3 {
 
 /* center all content  */
 .about-content {
-  height: 0%;
   margin: auto;
   width: 50%;
-  
 }
 
 #about img {
@@ -125,12 +123,11 @@ h3 {
 /* Work section */
 .work-container {
   margin: auto;
-  width: 60vw;
+  width: 65%;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 33%);
+  grid-template-rows: repeat(3, 300px);
   grid-gap: 30px;
-  padding-bottom: 300px;
 }
 
 .work-container > div {
@@ -138,14 +135,14 @@ h3 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 35vh;
 }
 
-.work-text {
+.work-text h4 {
   font-family: blackout;
-  font-size: 70px;
+  font-size: 5vw;
   color: white;
   text-align: center;
+  margin-top: 170px;
 }
 
 .work-text-1 {
@@ -163,6 +160,29 @@ h3 {
   grid-column-end: 3;
 }
 
-.work-text h4 {
-  margin-top: 170px;
+/* CONTACT */
+
+#contact {
+  position: relative;
+  width: 50%;
+  margin: auto;
+  border: solid yellow 5px;
+}
+
+.contact-list ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  border: solid yellow 5px;
+}
+
+.contact-list a {
+  margin-left: -20px;
+  color: black;
+  border: solid yellow 5px;
+  padding-bottom: 300px;
+}
+
+.github-link {
+  margin-left: -80px;
 }
