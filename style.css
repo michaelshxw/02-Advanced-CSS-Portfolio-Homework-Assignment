@@ -211,7 +211,7 @@ h3 {
 
 /* COPYRIGHT INFO */
 
-.copyright {
+footer {
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
