@@ -54,10 +54,10 @@ header {
 /* michael shaw header text  */
 .hero-text h1 {
   position: relative;
-  padding-top: 200px;
+  padding-top: 150px;
   text-align: center;
   font-family: blackout;
-  font-size: 8vw;
+  font-size: 7vw;
   transform: scaleY(2);
   color:  white; 
   font-weight: lighter;
@@ -137,7 +137,7 @@ section {
 }
 
 .work-container > div {
-  background-image: url("/Assets/Images/hero-image1.jpg");
+  background-image: url("/Assets/Images/hero-image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -244,11 +244,12 @@ footer {
     flex-direction: column;
     width: 80vw;
     padding-right: 0px;
-    padding-top: 250px;
+    padding-top: 300px;
   }
 
   .hero-image h1 {
-    font-size: 17vw;
+    font-size: 13vw;
+    padding-top: 170px;
   }
 
   #contact h3 {
@@ -260,6 +261,6 @@ footer {
   }
 
   nav a {
-    font-size: 8vw;  
+    font-size: 6vw;  
   }
 }
