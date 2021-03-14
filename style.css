@@ -137,7 +137,7 @@ section {
 }
 
 .work-container > div {
-  background-image: url("/Assets/Images/hero-image.jpg");
+  background-image: url("./Assets/Images/hero-image1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
