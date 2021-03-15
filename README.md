@@ -16,5 +16,3 @@ The code inside this repository displays a website portfolio for Michael Shaw. I
 [Screenshot 4](/Screenshots/screenshot-04.png)
 
 URL for completed product: https://michaelshxw.github.io/02-Advanced-CSS-Portfolio-Homework-Assignment/
-
-Feedback from last assignment: CSS consolidation and better description in README.md file. Answer question: what does this code do?
