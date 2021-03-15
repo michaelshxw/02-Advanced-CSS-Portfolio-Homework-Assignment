@@ -9,6 +9,6 @@ This repository includes all files relating to the UWA Full Stack Web Developmen
 
 [Screenshot 2](link.here)
 
-URL for completed product: [enter URL here]
+URL for completed product: https://michaelshxw.github.io/02-Advanced-CSS-Portfolio-Homework-Assignment/
 
 Feedback from last assignment: CSS consolidation and better description in README.md file. Answer question: what does this code do?
