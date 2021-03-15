@@ -11,9 +11,9 @@ The code inside this repository displays a website portfolio for Michael Shaw. I
 
 [Screenshot 2](/Screenshots/screenshot-02.png)
 
-[Screenshot 2](/Screenshots/screenshot-03.png)
+[Screenshot 3](/Screenshots/screenshot-03.png)
 
-[Screenshot 2](/Screenshots/screenshot-04.png)
+[Screenshot 4](/Screenshots/screenshot-04.png)
 
 URL for completed product: https://michaelshxw.github.io/02-Advanced-CSS-Portfolio-Homework-Assignment/
 
