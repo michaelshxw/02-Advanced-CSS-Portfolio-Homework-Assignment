@@ -123,7 +123,9 @@ section {
 
 /* Work section */
 
-
+figure {
+  position: relative;
+}
 .gallery {
   padding-top: 50px;
 }
@@ -154,8 +156,23 @@ section {
 }
 
 .gallery figure:hover {
-  opacity: 0.75;
+  opacity: 0.5;
   filter: grayscale(100%);
+}
+
+figcaption {
+  font-size: 4vw;
+  text-align: center;
+  font-family: bastian;
+  color: white;
+  position: absolute;
+  left: 50%;
+  bottom: 30px;
+  transform: translate(-50%, -50%);
+} 
+
+#fig1 {
+  font-size: 4vw;
 }
 
 /* 
