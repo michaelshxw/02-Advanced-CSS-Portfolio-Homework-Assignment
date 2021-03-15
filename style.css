@@ -1,3 +1,4 @@
+/* Root colours with variables to make changing colour design easier in future */
 :root{
   --red: #ff3b00;
 }
@@ -10,7 +11,6 @@
 
 body {
   background-color: #e7dde4;
-  /* background-color: #f4d8cc; */
 }
 
 /* import fonts */
@@ -34,7 +34,7 @@ body {
   src: url("./Assets/Fonts/acetone/ACETONE.otf");
 }
 
-/* HEADER */
+/* HEADER SECTION */
 
 header {
   color: var(--red);  
@@ -83,12 +83,13 @@ nav a {
   position: relative;
 }
 
-/* ABOUT */
+/* ABOUT SECTION */
 
-/* update page header styling for all sections  */
 #about h3 {
   padding-bottom: 50px;
 }
+
+/* update page header styling for all sections  */
 h3 {
   text-align: center;
   font-family: bastian;
@@ -98,15 +99,18 @@ h3 {
   margin-top: 0px;
 }
 
+/* give each section padding so they aren't touching each other */
 section {
   padding-top: 100px;
 }
 
+/* center about section, width of 60% */
 #about {
   margin: auto;
   width: 60%;
 }
 
+/* center about section image and paragraph */
 #about img {
   display: block;
   margin-left: auto;
@@ -121,14 +125,14 @@ section {
   font-family: Arial, Helvetica, sans-serif; 
 }
 
-/* Work section */
+/* WORK SECTION */
 
-figure {
-  position: relative;
-}
+/* spacing above gallery and header */
 .gallery {
   padding-top: 50px;
 }
+
+/* give a width of each gallery figure and padding, add grayscale filter */
 .gallery figure {
   width: 33.3%;
   padding: 20px;
@@ -137,16 +141,18 @@ figure {
   filter: grayscale(0%)
 }
 
+/* make first gallery image 100% width and 50% height to meet acceptance criteria */
 .gallery figure:first-child {
   width: 100%;
   height: 50%;
 }
 
+/* make each image fit it's own container rather than being full size */
 .gallery figure img {
   width: 100%;
 }
 
-
+/* position the gallery, give it a width */
 .gallery {
   position: relative;
   display: flex;
@@ -156,11 +162,13 @@ figure {
   margin: auto;
 }
 
+/* when hovering over the image, opacity becomes 0.5 and grayscale appears  */
 .gallery figure:hover {
   opacity: 0.5;
   filter: grayscale(100%);
 }
 
+/* figcaption is used for the title of each image "Example 5", etc */
 figcaption {
   font-size: 4vw;
   text-align: center;
@@ -172,55 +180,13 @@ figcaption {
   transform: translate(-50%, -50%);
 } 
 
+/* change font-size for first figure as its displayed at a different size */
 #fig1 {
   font-size: 4vw;
 }
 
-/* 
-.work-container {
-  padding-right: 50px;
-  margin-top: 500px;
-  position: relative;
-  width: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: grid;
-  grid-template-columns: repeat(3, 33%);
-  grid-template-rows: repeat(3, 300px);
-  grid-gap: 30px;
-}
+/* CONTACT SECTION */
 
-.work-container > div {
-  background-image: url("https://source.unsplash.com/random/800x800");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.work-text h4 {
-  font-family: bastian;
-  font-size: 5vw;
-  color: white;
-  text-align: center;
-  margin-top: 170px;
-}
-
-.work-text-1 {
-  grid-column-start: 1;
-  grid-column-end: 4;
-}
-
-.work-text-3 {
-  grid-column-start: 2;
-  grid-column-end: 4;
-}
-
-.work-text-4 {
-  grid-column-start: 1;
-  grid-column-end: 3;
-} */
-
-/* CONTACT */
 
 #contact {
   position: relative;
@@ -233,6 +199,7 @@ figcaption {
   margin-top: -150px;
 }
 
+/* space all buttons evenly and display flex */
 .contact-list ul {
   display: flex;
   justify-content: space-evenly;
@@ -241,6 +208,7 @@ figcaption {
   font-size: 35px;
 }
 
+/* styling for each button in the contact list  */
 .contact-list a {
   color: rgb(41, 41, 41);
   padding: 8px 35px;
@@ -250,6 +218,7 @@ figcaption {
 
 /* COPYRIGHT INFO */
 
+/* center the footer content */
 footer {
   position: absolute;
   left: 50%;
@@ -260,12 +229,14 @@ footer {
   font-family: Arial, Helvetica, sans-serif
 }
 
+/* move the button in full screen size so it feels more centered even though it isn't */
 #move-button {
   padding-left: 40px;
 }
 
 /* MEDIA QUERIES */
 
+/* for ipad / tablet */
 @media only screen and (max-width: 1024px) {
   nav li {
     float: none;
@@ -281,9 +252,10 @@ footer {
 
   .gallery figure {
     width: 50%;
-
+  }
 }
 
+/* for iphone / mobile device */
 @media only screen and (max-width: 768px) {
   h3 {
     font-size: 20vw;
@@ -308,15 +280,6 @@ footer {
   #move-button {
     padding-left: 0px;
   }
-/* 
-  .work-container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    width: 80vw;
-    padding-right: 0px;
-    padding-top: 300px;
-  } */
 
   .hero-image h1 {
     font-size: 13vw;
@@ -328,7 +291,7 @@ footer {
   }
 
   .contact-list a {
-        padding: 5px;
+    padding: 5px;
   }
 
   nav a {
