@@ -15,4 +15,4 @@ The code inside this repository displays a website portfolio for Michael Shaw. I
 
 [Screenshot 4](/Screenshots/screenshot-04.png)
 
-URL for completed product: https://michaelshxw.github.io/02-Advanced-CSS-Portfolio-Homework-Assignment/
+URL for completed product: https://michaelshxw.github.io/Basic-Portfolio/
